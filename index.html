@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="index.js"></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="container">
-            <div id="home-score" class="scoreboard">
-                <h1 class="teams">HOME</h1>
-                <div class="score-count"><div class="num-goals" id="home-goals">0</div></div>
-                <div class="goal">
-                    <div class="add-goals" onclick="addGoalsHome(1);">+1</div>
-                    <div class="add-goals" onclick="addGoalsHome(2);">+2</div>
-                    <div class="add-goals" onclick="addGoalsHome(3);">+3</div>
-                </div>
-            </div>
-            <div id="away-score" class="scoreboard">
-                <h1 class="teams">GUEST</h1>
-                <div class="score-count"><div class="num-goals" id="away-goals">0</div></div>
-                <div class="goal">
-                    <div class="add-goals" onclick="addGoalsAway(1);">+1</div>
-                    <div class="add-goals" onclick="addGoalsAway(2);">+2</div>
-                    <div class="add-goals" onclick="addGoalsAway(3);">+3</div>
-                </div>
-            </div>
+      <div class="container">
+        <div id="home-score" class="scoreboard">
+          <h1 class="teams">HOME</h1>
+          <div class="score-count">
+            <div class="num-goals" id="home-goals">0</div>
+          </div>
+          <div class="goal">
+            <div class="add-goals" onclick="addGoalsHome(1);">+1</div>
+            <div class="add-goals" onclick="addGoalsHome(2);">+2</div>
+            <div class="add-goals" onclick="addGoalsHome(3);">+3</div>
+          </div>
         </div>
+        <div id="away-score" class="scoreboard">
+          <h1 class="teams">AWAY</h1>
+          <div class="score-count">
+            <div class="num-goals" id="away-goals">0</div>
+          </div>
+          <div class="goal">
+            <div class="add-goals" onclick="addGoalsAway(1);">+1</div>
+            <div class="add-goals" onclick="addGoalsAway(2);">+2</div>
+            <div class="add-goals" onclick="addGoalsAway(3);">+3</div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
